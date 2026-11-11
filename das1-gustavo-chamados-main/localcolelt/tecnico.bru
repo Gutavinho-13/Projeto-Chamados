@@ -1,0 +1,19 @@
+meta {
+  name: tecnico
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8080/tecnicos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Enzo Fernando",
+    "email": "enzo.fernando@email.com",
+    "perfil": "TECNICO"
+  }
+}

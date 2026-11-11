@@ -1,0 +1,19 @@
+meta {
+  name: gustavo
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/clientes
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Carlos da Silva",
+    "email": "carlos.silva@email.com",
+    "telefone": "(47) 98888-4321"
+  }
+}
